@@ -1,0 +1,6 @@
+{
+  "name": "MyNote",
+  "description": "A Sticky Notes application with SharedPreferences storage, note color customization, search, and student author info page.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
