@@ -1,22 +1,58 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 📝 MyNote - Android Note Application
 
-# Run and deploy your AI Studio app
+## 📌 Overview
 
-This contains everything you need to run your app locally.
+MyNote adalah aplikasi catatan Android yang memungkinkan pengguna membuat, mengedit, menyimpan, dan mengatur catatan dengan tampilan modern seperti sticky notes.
 
-View your app in AI Studio: https://ai.studio/apps/2cfa3993-8075-40e8-ad03-0a9a79bc7c27
+---
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+### 💾 Local Storage
+- Menggunakan **SharedPreferences** untuk menyimpan data catatan.
+- Data disimpan dalam format **JSON**.
+- Catatan, pin status, edit, dan perubahan warna tetap tersimpan setelah aplikasi ditutup.
+
+### 🎨 Sticky Note Color Customization
+- Pilihan warna catatan:
+  - 🟨 Kuning
+  - 🟩 Mint
+  - 🟦 Biru
+  - 🩷 Pink
+  - 🟪 Ungu
+  - 🟧 Jingga
+- Preview warna langsung saat mengedit catatan.
+- Filter catatan berdasarkan warna.
+
+### ℹ️ About Application
+Menampilkan informasi pembuat:
+
+- **Nama:** Yohanes Ananto Putro
+- **NIM:** 23083000005
+- **Program Studi:** Sistem Informasi
+- **Semester:** 6
+- **Tanggal Pembuatan:** Juli 2026
+
+Juga menampilkan informasi penyimpanan aplikasi dan jumlah catatan.
+
+### 🎨 Modern UI Design
+- Menggunakan desain **Material 3**.
+- Tampilan modern dengan rounded corners.
+- Tema warna ungu (#6750A4).
+- Desain sticky note yang responsif.
+- Custom adaptive app icon.
+
+---
+
+<img width="316" height="699" alt="hoem" src="https://github.com/user-attachments/assets/892ec434-62cd-4147-90bb-efa2ddd9287e" />
+<img width="309" height="706" alt="catatan" src="https://github.com/user-attachments/assets/1a443e4d-6fa9-44d4-8c45-f68ed5c1acab" />
+<img width="313" height="700" alt="tentang" src="https://github.com/user-attachments/assets/72712466-75ef-48f9-91df-4d5375d71f06" />
 
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-7. If you have already published your app in AI Studio, please [request upload key reset](https://support.google.com/googleplay/android-developer/answer/9842756#zippy=%2Crequest-an-upload-key-reset) in Google Play Console.
+## 👤 Developer
+
+**Yohanes Ananto Putro**  
+NIM: 23083000005  
+Sistem Informasi - Semester 6  
+
+© 2026 MyNote
